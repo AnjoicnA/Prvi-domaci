@@ -1,0 +1,37 @@
+#title{
+    font-size: 28px;
+    color: grey;
+    text-align: center;
+}
+
+div{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th{
+    font-weight: bold; /*Ovo vazi i po default-u.*/
+}
+
+thead tr{
+    border: 1px solid black;
+}
+
+tbody tr:nth-child(odd){
+    background-color: white;
+}
+
+tbody tr:nth-child(even){
+    background-color: #E9ECEF;
+}
+
+img{
+    width: 190px;
+    height: 100px;
+}
